@@ -1,8 +1,10 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import { md5 } from "js-md5";
 
 function App() {
+  console.log(md5("puk puk"));
   return (
     <div className="App">
       <header className="App-header">
